@@ -16,10 +16,10 @@
         <div class="avatar-wrap">
           <img src="images/profile.jpg" alt="유기현 프로필 사진" class="avatar" />
         </div>
-        <blockquote class="quote">“공부는 숨이 막혀야 정상이다.”</blockquote>
+        <p class="tagline">백엔드와 인프라를 함께 하는 개발자를 지향합니다.</p>
         <dl class="info-list">
           <div><dt>Name</dt><dd>유기현</dd></div>
-          <div><dt>Mail</dt><dd><a href="mailto:gihyeon@gmail.com">gihyeon@gmail.com</a></dd></div>
+          <div><dt>Mail</dt><dd><a href="mailto:gihyeon9412@gmail.com">gihyeon9412@gmail.com</a></dd></div>
           <div><dt>Tel</dt><dd>010-4233-9412</dd></div>
         </dl>
       </section>
@@ -77,59 +77,130 @@
         </div>
 
         <div class="resume-block">
-          <h3><span class="badge">📜 자격 및 수료</span></h3>
-          <ul class="timeline">
-            <li><span class="date">26.08.28</span><span class="desc">데이터분석 준전문가 (ADsP)</span></li>
-            <li><span class="date">26.09.11</span><span class="desc">SQL 개발자 (SQLD)</span></li>
+          <h3><span class="badge">💼 경력</span></h3>
+          <ul class="timeline timeline-detailed">
+            <li>
+              <span class="date">26.07.01~</span>
+              <div class="desc">
+                <div>OS_LAP 연구실 · <a href="https://inuoslab.github.io/" target="_blank" rel="noopener noreferrer">Home</a></div>
+                <p class="sub-desc">cgroup v2 기반 컨테이너 메모리 동적 조절(Pufferfish) 실험을 진행 중이며, OCM(Out-of-Cgroup-Memory) 감지·CPU 제한·puff()/reclaim() 정책 등 시스템/클라우드 인프라 레벨의 자원 관리를 연구.</p>
+              </div>
+            </li>
           </ul>
+        </div>
+
+        <div class="resume-block">
+          <h3><span class="badge">🛠️ 기술 스택</span></h3>
+          <div class="stack-group">
+            <h4>Backend</h4>
+            <div class="tag-list">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Spring Data JPA</span>
+              <span class="tag">Thymeleaf</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTTP/REST API</span>
+            </div>
+          </div>
+          <div class="stack-group">
+            <h4>Cloud &amp; Infra</h4>
+            <div class="tag-list">
+              <span class="tag">Docker</span>
+              <span class="tag">MinIO</span>
+              <span class="tag">AWS EC2</span>
+              <span class="tag">AWS S3</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Linux/OS</span>
+            </div>
+          </div>
         </div>
 
         <div class="resume-block">
           <h3><span class="badge">🚧 진행중인 프로젝트</span></h3>
           <div class="project-list">
             <a class="project-card" href="https://github.com/inu-jeongbobada/jeongboBada-backend" target="_blank" rel="noopener noreferrer">
-              <span class="link-icon icon-github" aria-hidden="true">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
-                </svg>
-              </span>
-              <span class="link-text">
-                <strong>jeongboBada-backend</strong>
-                <small>inu-jeongbobada</small>
-              </span>
+              <div class="project-head">
+                <span class="link-icon icon-github" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+                  </svg>
+                </span>
+                <span class="link-text">
+                  <strong>jeongboBada-backend</strong>
+                  <small>inu-jeongbobada</small>
+                </span>
+                <span class="role-tag">백엔드 리드</span>
+              </div>
+              <p class="project-desc">인천대학교 학과 정보 플랫폼 "정보바다"의 백엔드. 교수·수업 정보, 커뮤니티, 진로 수기 등을 제공하는 소모임 팀 프로젝트로 REST API 서버를 담당.</p>
+              <div class="tag-list">
+                <span class="tag">Java 21</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Spring Security · JWT</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Docker</span>
+              </div>
             </a>
             <a class="project-card" href="https://github.com/gihyeon23/pufferfish-memory-lab" target="_blank" rel="noopener noreferrer">
-              <span class="link-icon icon-github" aria-hidden="true">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
-                </svg>
-              </span>
-              <span class="link-text">
-                <strong>pufferfish-memory-lab</strong>
-                <small>gihyeon23</small>
-              </span>
+              <div class="project-head">
+                <span class="link-icon icon-github" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+                  </svg>
+                </span>
+                <span class="link-text">
+                  <strong>pufferfish-memory-lab</strong>
+                  <small>gihyeon23</small>
+                </span>
+              </div>
+              <p class="project-desc">ACM SoCC 2019 논문 「Pufferfish」의 컨테이너 기반 동적 메모리 관리 기법을 Docker·cgroup v2 환경에서 단계적으로 재현하는 OS_LAP 연구실 개인 실험 프로젝트. OCM 감지 시 CPU 제한(suspend), puff()/reclaim()으로 메모리 한도 동적 조절을 구현·검증.</p>
+              <div class="tag-list">
+                <span class="tag">Docker</span>
+                <span class="tag">cgroup v2</span>
+                <span class="tag">Linux</span>
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+              </div>
             </a>
             <a class="project-card" href="https://github.com/inu-appcenter/memorIN-backend" target="_blank" rel="noopener noreferrer">
-              <span class="link-icon icon-github" aria-hidden="true">
-                <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
-                </svg>
-              </span>
-              <span class="link-text">
-                <strong>memorIN-backend</strong>
-                <small>inu-appcenter</small>
-              </span>
+              <div class="project-head">
+                <span class="link-icon icon-github" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+                  </svg>
+                </span>
+                <span class="link-text">
+                  <strong>memorIN-backend</strong>
+                  <small>inu-appcenter</small>
+                </span>
+              </div>
+              <p class="project-desc">일상을 타임라인에 기록하고 이를 매개로 소통하는 크로스플랫폼 소셜/메신저 서비스. 미디어는 클라이언트에서 <strong>MinIO(S3 호환 스토리지)</strong>로 Presigned URL을 통해 직접 업로드하도록 연동해 서버 부하 없이 실제로 동작하는 구조로 구현.</p>
+              <div class="tag-list">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">MinIO</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">STOMP/WebSocket</span>
+                <span class="tag">Docker Compose</span>
+              </div>
             </a>
           </div>
         </div>
 
         <div class="resume-block">
-          <h3><span class="badge">💼 경력</span></h3>
+          <h3><span class="badge">📊 GitHub Activity</span></h3>
+          <img
+            class="contrib-graph"
+            src="https://ghchart.rshah.org/a56a3e/gihyeon23"
+            alt="유기현 GitHub 커밋 잔디"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="resume-block">
+          <h3><span class="badge">📜 자격 및 수료</span></h3>
           <ul class="timeline">
-            <li>
-              <span class="date">26.07.01~</span>
-              <span class="desc">OS_LAP 연구실 · <a href="https://inuoslab.github.io/" target="_blank" rel="noopener noreferrer">Home</a></span>
-            </li>
+            <li><span class="date">26.08.28</span><span class="desc">데이터분석 준전문가 (ADsP)</span></li>
+            <li><span class="date">26.09.11</span><span class="desc">SQL 개발자 (SQLD)</span></li>
+            <li><span class="date">준비중</span><span class="desc">정보처리기사</span></li>
           </ul>
         </div>
 

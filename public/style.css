@@ -97,13 +97,12 @@ body {
   transform: scale(1.04) rotate(-1deg);
 }
 
-.quote {
-  position: relative;
-  margin: 0 0 20px;
+.tagline {
+  margin: 16px 0 20px;
   padding: 0 8px;
-  font-style: italic;
   color: var(--text-muted);
   font-size: 14px;
+  font-style: italic;
 }
 
 .info-list {
@@ -270,6 +269,49 @@ body {
   font-weight: 600;
 }
 
+.timeline-detailed li {
+  align-items: flex-start;
+}
+
+.sub-desc {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.stack-group {
+  margin-bottom: 12px;
+}
+
+.stack-group:last-child {
+  margin-bottom: 0;
+}
+
+.stack-group h4 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: var(--text);
+}
+
 .hobbies {
   display: flex;
   flex-wrap: wrap;
@@ -302,12 +344,12 @@ body {
 
 .project-card {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 10px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 8px 14px;
+  padding: 14px 16px;
   color: var(--text);
   text-decoration: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -316,6 +358,12 @@ body {
 .project-card:hover {
   transform: translateY(-1px);
   box-shadow: var(--shadow);
+}
+
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .project-card .link-icon {
@@ -330,6 +378,31 @@ body {
 
 .project-card .link-text small {
   font-size: 11px;
+}
+
+.role-tag {
+  margin-left: auto;
+  flex: 0 0 auto;
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.project-desc {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.contrib-graph {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: var(--bg);
 }
 
 @media (max-width: 720px) {
