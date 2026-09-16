@@ -1,0 +1,9 @@
+{
+  "name": "introduce_myself",
+  "version": "1.0.0",
+  "description": "자기소개 페이지",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
