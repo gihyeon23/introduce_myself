@@ -219,7 +219,32 @@
         </div>
 
       </section>
+
+      <section class="card todo-card">
+        <div class="todo-header">
+          <h2 class="section-title">TODO</h2>
+          <span class="todo-date" id="todo-date"></span>
+        </div>
+        <form id="todo-form" class="todo-form">
+          <input
+            type="text"
+            id="todo-input"
+            class="todo-input"
+            placeholder="오늘 할 일을 입력하세요"
+            autocomplete="off"
+            maxlength="80"
+          />
+          <button type="submit" class="todo-add-btn" aria-label="할 일 추가">+</button>
+        </form>
+        <ul id="todo-list" class="todo-list"></ul>
+        <p id="todo-empty" class="todo-empty">아직 할 일이 없어요. 하나 추가해보세요!</p>
+        <div class="todo-footer">
+          <span id="todo-count" class="todo-count"></span>
+          <button type="button" id="todo-clear-done" class="todo-clear-btn">완료 항목 지우기</button>
+        </div>
+      </section>
     </main>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
