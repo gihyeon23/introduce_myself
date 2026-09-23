@@ -509,6 +509,7 @@ body {
   background: var(--bg);
   border: 1px solid var(--border);
   font-size: 14px;
+  list-style: none;
   animation: fade-in-up 0.3s ease both;
 }
 
